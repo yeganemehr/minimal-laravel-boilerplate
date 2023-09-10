@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace Vendor\Project\Http\Middleware;
 
-use App\Providers\RouteServiceProvider;
+use Vendor\Project\Providers\RouteServiceProvider;
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;

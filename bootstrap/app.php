@@ -29,17 +29,17 @@ $app->useAppPath(dirname(__DIR__) . "/src");
 
 $app->singleton(
     Illuminate\Contracts\Http\Kernel::class,
-    App\Http\Kernel::class
+    Vendor\Project\Http\Kernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Console\Kernel::class,
-    App\Console\Kernel::class
+    Vendor\Project\Console\Kernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,
-    App\Exceptions\Handler::class
+    Vendor\Project\Exceptions\Handler::class
 );
 
 /*

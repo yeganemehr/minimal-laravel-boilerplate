@@ -163,7 +163,7 @@ return [
         /*
          * Application Service Providers...
          */
-        App\ServiceProvider::class,
+        Vendor\Project\ServiceProvider::class,
     ])->toArray(),
 
     /*
@@ -178,7 +178,7 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
-        // 'Example' => App\Facades\Example::class,
+        // 'Example' => Vendor\Project\Facades\Example::class,
     ])->toArray(),
 
 ];

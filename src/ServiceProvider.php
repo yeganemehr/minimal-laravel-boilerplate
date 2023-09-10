@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Vendor\Project;
 
 use Illuminate\Support\ServiceProvider as SupportServiceProvider;
 use Illuminate\Support\Facades\Route;
